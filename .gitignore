@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+
+# البيانات المؤقتة
+data/
+audio_output/
+downloads/
+*.db
+*.sqlite
+
+# الإعدادات الحساسة
+.env
+.env.local
+
+# عينات الصوت
+voice_samples/ref.wav
+voice_samples/*.mp3
+
+# النماذج
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,23 @@
+# ================================
+# Mr. X - AI Studio
+# Python Dependencies
+# ================================
+
+# ===== Backend Core =====
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# ===== AI / LLM =====
+ollama
+
+# ===== Voice (Text-to-Speech) =====
+edge-tts
+
+# ===== Utilities =====
+python-dotenv
+httpx
+
+# ===== Hallucination Detection =====
+groundrails
